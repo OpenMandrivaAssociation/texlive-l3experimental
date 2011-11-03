@@ -1,5 +1,11 @@
+# revision 24258
+# category Package
+# catalog-ctan /macros/latex/contrib/l3experimental
+# catalog-date 2011-10-10 01:01:54 +0200
+# catalog-license lppl1.3
+# catalog-version SVN 2900
 Name:		texlive-l3experimental
-Version:	0.2900
+Version:	SVN 2900
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
@@ -71,6 +77,7 @@ on a snapshot of the SVN repository on 2011-09-15.
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/l3galley.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -81,3 +88,5 @@ on a snapshot of the SVN repository on 2011-09-15.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
