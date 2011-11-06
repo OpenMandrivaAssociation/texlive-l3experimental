@@ -5,7 +5,7 @@
 # catalog-license lppl1.3
 # catalog-version SVN 2900
 Name:		texlive-l3experimental
-Version:	SVN 2900
+Version:	SVN2900
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
