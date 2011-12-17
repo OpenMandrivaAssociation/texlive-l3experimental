@@ -1,11 +1,11 @@
-# revision 24655
+# revision 24820
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2011-11-20 01:28:10 +0100
+# catalog-date 2011-12-10 15:22:24 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 2966
+# catalog-version SVN 3036
 Name:		texlive-l3experimental
-Version:	SVN2966
+Version:	SVN3036
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
@@ -54,15 +54,35 @@ on a snapshot of the SVN repository on 2011-11-19.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex-trace.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex.sty
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-hex.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88591.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885910.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885911.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885913.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885914.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885915.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885916.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88592.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88593.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88594.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88595.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88596.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88597.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88598.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88599.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-name.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-string.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-url.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-utf16.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-utf32.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-utf8.def
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xcoffins/xcoffins.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xgalley/l3galley.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xgalley/xgalley.sty
 %doc %{_texmfdistdir}/doc/latex/l3experimental/README
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3regex.pdf
-%doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3str.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xcoffins/xcoffins.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xgalley/l3galley.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xgalley/xgalley.pdf
