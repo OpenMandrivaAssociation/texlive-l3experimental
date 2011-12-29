@@ -36,16 +36,8 @@ files of the bundle are also available in the Subversion (SVN)
 repository of the LaTeX3 Project. The bundle on CTAN is based
 on a snapshot of the SVN repository on 2011-11-19.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -95,7 +87,6 @@ on a snapshot of the SVN repository on 2011-11-19.
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/l3galley.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley.ins
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -106,5 +97,3 @@ on a snapshot of the SVN repository on 2011-11-19.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
