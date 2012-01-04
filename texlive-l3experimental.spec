@@ -6,7 +6,7 @@
 # catalog-version SVN 3036
 Name:		texlive-l3experimental
 Version:	SVN3036
-Release:	1
+Release:	2
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3experimental
