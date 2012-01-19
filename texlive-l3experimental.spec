@@ -1,12 +1,12 @@
-# revision 24820
+# revision 24970
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2011-12-10 15:22:24 +0100
+# catalog-date 2011-12-29 15:17:41 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 3036
+# catalog-version SVN 3109
 Name:		texlive-l3experimental
-Version:	SVN3036
-Release:	2
+Version:	SVN3109
+Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3experimental
@@ -34,7 +34,7 @@ supplementing the simple TeX reference point; and - xgalley,
 which controls boxes receiving text for typesetting. All the
 files of the bundle are also available in the Subversion (SVN)
 repository of the LaTeX3 Project. The bundle on CTAN is based
-on a snapshot of the SVN repository on 2011-11-19.
+on a snapshot of the SVN repository on 2011-12-27.
 
 %post
     %{_sbindir}/texlive.post
@@ -46,6 +46,7 @@ on a snapshot of the SVN repository on 2011-11-19.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3flag.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-hex.def
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88591.def
@@ -70,18 +71,24 @@ on a snapshot of the SVN repository on 2011-11-19.
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-utf32.def
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-utf8.def
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str.sty
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3tl-analysis.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xcoffins/xcoffins.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xgalley/l3galley.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xgalley/xgalley.sty
 %doc %{_texmfdistdir}/doc/latex/l3experimental/README
+%doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3flag.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3regex.pdf
+%doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3str.pdf
+%doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3tl-analysis.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xcoffins/xcoffins.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xgalley/l3galley.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xgalley/xgalley.pdf
 #- source
+%doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3flag.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3regex.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.ins
+%doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3tl-analysis.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/l3galley.dtx
