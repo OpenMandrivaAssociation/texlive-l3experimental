@@ -1,11 +1,11 @@
-# revision 24970
+# revision 25158
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2011-12-29 15:17:41 +0100
+# catalog-date 2012-01-19 12:33:14 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 3109
+# catalog-version SVN 3209
 Name:		texlive-l3experimental
-Version:	SVN3109
+Version:	SVN3209
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
@@ -34,7 +34,7 @@ supplementing the simple TeX reference point; and - xgalley,
 which controls boxes receiving text for typesetting. All the
 files of the bundle are also available in the Subversion (SVN)
 repository of the LaTeX3 Project. The bundle on CTAN is based
-on a snapshot of the SVN repository on 2011-12-27.
+on a snapshot of the SVN repository on 2012-01-19.
 
 %post
     %{_sbindir}/texlive.post
@@ -48,28 +48,6 @@ on a snapshot of the SVN repository on 2011-12-27.
 %files
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3flag.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex.sty
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-hex.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88591.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885910.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885911.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885913.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885914.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885915.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso885916.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88592.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88593.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88594.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88595.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88596.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88597.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88598.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-iso88599.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-name.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-string.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-url.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-utf16.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-utf32.def
-%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-utf8.def
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3tl-analysis.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xcoffins/xcoffins.sty
@@ -89,6 +67,9 @@ on a snapshot of the SVN repository on 2011-12-27.
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3tl-analysis.dtx
+%doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins-test.tex
+%doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins-tschichold-example-keyval.tex
+%doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins-tschichold-example.tex
 %doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/l3galley.dtx
