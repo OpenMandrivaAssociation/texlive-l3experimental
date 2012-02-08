@@ -1,11 +1,11 @@
-# revision 25158
+# revision 25328
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2012-01-19 12:33:14 +0100
+# catalog-date 2012-02-07 16:58:22 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 3209
+# catalog-version SVN 3331
 Name:		texlive-l3experimental
-Version:	SVN3209
+Version:	SVN3331
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
@@ -25,16 +25,17 @@ implementations for aspects of the LaTeX3 kernel, dealing with
 higher-level ideas such as the Designer Interface. Some of them
 work as stand alone packages, providing new functionality, and
 can be used on top of LaTeX2e with no changes to the existing
-kernel. The present release includes: - l3galley: kernel
-support for xgalley; - l3str: kernel support for string
-manipulation; - l3regex kernel support for regular expression
-search and replace operations; - xcoffins, which allows the
-alignment of boxes using a series of 'handle' positions,
-supplementing the simple TeX reference point; and - xgalley,
-which controls boxes receiving text for typesetting. All the
-files of the bundle are also available in the Subversion (SVN)
-repository of the LaTeX3 Project. The bundle on CTAN is based
-on a snapshot of the SVN repository on 2012-01-19.
+kernel. The present release includes: - l3dt: kernel support
+for data tables; - l3galley: kernel support for xgalley; -
+l3regex kernel support for regular expression search and
+replace operations; - l3str: kernel support for string
+manipulation; - xcoffins, which allows the alignment of boxes
+using a series of 'handle' positions, supplementing the simple
+TeX reference point; and - xgalley, which controls boxes
+receiving text for typesetting. All the files of the bundle are
+also available in the Subversion (SVN) repository of the LaTeX3
+Project. The bundle on CTAN is based on a snapshot of the SVN
+repository on 2012-01-19.
 
 %post
     %{_sbindir}/texlive.post
@@ -46,6 +47,8 @@ on a snapshot of the SVN repository on 2012-01-19.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/l3experimental/l3dt/l3dt.sty
+%{_texmfdistdir}/tex/latex/l3experimental/l3sort/l3sort.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3flag.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str.sty
@@ -54,6 +57,8 @@ on a snapshot of the SVN repository on 2012-01-19.
 %{_texmfdistdir}/tex/latex/l3experimental/xgalley/l3galley.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xgalley/xgalley.sty
 %doc %{_texmfdistdir}/doc/latex/l3experimental/README
+%doc %{_texmfdistdir}/doc/latex/l3experimental/l3dt/l3dt.pdf
+%doc %{_texmfdistdir}/doc/latex/l3experimental/l3sort/l3sort.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3flag.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3regex.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3str.pdf
@@ -62,6 +67,10 @@ on a snapshot of the SVN repository on 2012-01-19.
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xgalley/l3galley.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xgalley/xgalley.pdf
 #- source
+%doc %{_texmfdistdir}/source/latex/l3experimental/l3dt/l3dt.dtx
+%doc %{_texmfdistdir}/source/latex/l3experimental/l3dt/l3dt.ins
+%doc %{_texmfdistdir}/source/latex/l3experimental/l3sort/l3sort.dtx
+%doc %{_texmfdistdir}/source/latex/l3experimental/l3sort/l3sort.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3flag.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3regex.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.dtx
@@ -73,6 +82,7 @@ on a snapshot of the SVN repository on 2012-01-19.
 %doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/l3galley.dtx
+%doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley-demo.tex
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley.ins
 
