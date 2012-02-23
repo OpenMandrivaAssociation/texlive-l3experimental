@@ -1,11 +1,11 @@
-# revision 25328
+# revision 25359
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2012-02-07 16:58:22 +0100
+# catalog-date 2012-02-08 22:35:49 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 3331
+# catalog-version SVN 3341
 Name:		texlive-l3experimental
-Version:	SVN3331
+Version:	SVN3341
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
@@ -76,13 +76,9 @@ repository on 2012-01-19.
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3tl-analysis.dtx
-%doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins-test.tex
-%doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins-tschichold-example-keyval.tex
-%doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins-tschichold-example.tex
 %doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xcoffins/xcoffins.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/l3galley.dtx
-%doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley-demo.tex
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/xgalley/xgalley.ins
 
