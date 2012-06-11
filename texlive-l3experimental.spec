@@ -1,12 +1,12 @@
-# revision 25523
+# revision 26109
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2012-02-26 23:34:26 +0100
+# catalog-date 2012-04-23 21:12:05 +0200
 # catalog-license lppl1.3
-# catalog-version SVN 3471
+# catalog-version SVN 3570
 Name:		texlive-l3experimental
-Version:	SVN3471
-Release:	2
+Version:	SVN3570
+Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3experimental
