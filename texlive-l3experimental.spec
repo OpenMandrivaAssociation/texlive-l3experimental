@@ -1,11 +1,11 @@
-# revision 26109
+# revision 27107
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2012-04-23 21:12:05 +0200
+# catalog-date 2012-07-16 14:27:23 +0200
 # catalog-license lppl1.3
-# catalog-version SVN 3570
+# catalog-version SVN 3990
 Name:		texlive-l3experimental
-Version:	SVN3570
+Version:	SVN3990
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
@@ -25,19 +25,21 @@ implementations for aspects of the LaTeX3 kernel, dealing with
 higher-level ideas such as the Designer Interface. Some of them
 work as stand alone packages, providing new functionality, and
 can be used on top of LaTeX2e with no changes to the existing
-kernel. The present release includes: - l3dt: kernel support
+kernel. The present release includes: - xgalley, which controls
+boxes receiving text for typesetting. - l3dt: kernel support
 for data tables; - l3galley: kernel support for xgalley; -
 l3regex: kernel support for regular expression search and
 replace operations; - l3sort: kernel support for sorting
 sequences, token lists or comma-lists, according to user-
 specified comparison criteria; - l3str: kernel support for
-string manipulation; - xcoffins, which allows the alignment of
-boxes using a series of 'handle' positions, supplementing the
-simple TeX reference point; and - xgalley, which controls boxes
-receiving text for typesetting. All the files of the bundle are
-also available in the Subversion (SVN) repository of the LaTeX3
+string manipulation; - l3tl-build: kernel support for token
+list building; - l3tl_analysis: kernel support for token list
+analysis; and - xcoffins, which allows the alignment of boxes
+using a series of 'handle' positions, supplementing the simple
+TeX reference point. All the files of the bundle are also
+available in the Subversion (SVN) repository of the LaTeX3
 Project. The bundle on CTAN is based on a snapshot of the SVN
-repository on 2012-01-19.
+repository on 2012-07-16.
 
 %post
     %{_sbindir}/texlive.post
