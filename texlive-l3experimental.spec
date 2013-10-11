@@ -1,11 +1,11 @@
-# revision 27900
+# revision 31865
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2012-10-03 16:32:18 +0200
+# catalog-date 2013-07-28 14:35:06 +0200
 # catalog-license lppl1.3
-# catalog-version SVN 4249
+# catalog-version SVN 4582
 Name:		texlive-l3experimental
-Version:	SVN4249
+Version:	SVN4582
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
@@ -39,7 +39,7 @@ using a series of 'handle' positions, supplementing the simple
 TeX reference point. All the files of the bundle are also
 available in the Subversion (SVN) repository of the LaTeX3
 Project. The bundle on CTAN is based on a snapshot of the SVN
-repository on 2012-09-30.
+repository on 2012-11-21.
 
 %post
     %{_sbindir}/texlive.post
@@ -56,6 +56,7 @@ repository on 2012-09-30.
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3flag.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex-trace.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex.sty
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-convert.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-format.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3tl-analysis.sty
@@ -68,6 +69,7 @@ repository on 2012-09-30.
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3sort/l3sort.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3flag.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3regex.pdf
+%doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3str-convert.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3str-format.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3str.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3tl-analysis.pdf
@@ -82,6 +84,7 @@ repository on 2012-09-30.
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3sort/l3sort.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3flag.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3regex.dtx
+%doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str-convert.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str-format.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3str.ins
