@@ -1,11 +1,11 @@
-# revision 31865
+# revision 32204
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2013-07-28 14:35:06 +0200
+# catalog-date 2013-11-19 20:37:49 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 4582
+# catalog-version SVN 4610
 Name:		texlive-l3experimental
-Version:	SVN4582
+Version:	SVN4610
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
@@ -27,19 +27,18 @@ work as stand alone packages, providing new functionality, and
 can be used on top of LaTeX2e with no changes to the existing
 kernel. The present release includes: - xgalley, which controls
 boxes receiving text for typesetting. - l3dt: kernel support
-for data tables; - l3galley: kernel support for xgalley; -
-l3regex: kernel support for regular expression search and
-replace operations; - l3sort: kernel support for sorting
-sequences, token lists or comma-lists, according to user-
-specified comparison criteria; - l3str: kernel support for
-string manipulation; - l3tl-build: kernel support for token
-list building; - l3tl_analysis: kernel support for token list
-analysis; and - xcoffins, which allows the alignment of boxes
-using a series of 'handle' positions, supplementing the simple
-TeX reference point. All the files of the bundle are also
-available in the Subversion (SVN) repository of the LaTeX3
-Project. The bundle on CTAN is based on a snapshot of the SVN
-repository on 2012-11-21.
+for data tables; - l3regex: kernel support for regular
+expression search and replace operations; - l3sort: kernel
+support for sorting sequences, token lists or comma-lists,
+according to user-specified comparison criteria; - l3str:
+kernel support for string manipulation; - l3tl-build: kernel
+support for token list building; - l3tl_analysis: kernel
+support for token list analysis; and - xcoffins, which allows
+the alignment of boxes using a series of 'handle' positions,
+supplementing the simple TeX reference point. All the files of
+the bundle are also available in the Subversion (SVN)
+repository of the LaTeX3 Project. The bundle on CTAN is based
+on a snapshot of the SVN repository on 2013-10-11.
 
 %post
     %{_sbindir}/texlive.post
