@@ -1,12 +1,12 @@
-# revision 32204
+# revision 32537
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2013-11-19 20:37:49 +0100
+# catalog-date 2014-01-01 10:35:57 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 4610
+# catalog-version SVN 4634
 Name:		texlive-l3experimental
-Version:	SVN4610
-Release:	5
+Version:	SVN4634
+Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3experimental
@@ -56,6 +56,28 @@ on a snapshot of the SVN repository on 2013-10-11.
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex-trace.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-convert.sty
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88591.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso885910.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso885911.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso885913.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso885914.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso885915.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso885916.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88592.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88593.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88594.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88595.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88596.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88597.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88598.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-iso88599.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-utf16.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-utf32.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-enc-utf8.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-esc-hex.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-esc-name.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-esc-string.def
+%{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-esc-url.def
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str-format.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3str.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3tl-analysis.sty
