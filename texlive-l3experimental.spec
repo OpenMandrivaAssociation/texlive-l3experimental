@@ -1,12 +1,12 @@
-# revision 32537
+# revision 34268
 # category Package
 # catalog-ctan /macros/latex/contrib/l3experimental
-# catalog-date 2014-01-01 10:35:57 +0100
+# catalog-date 2014-05-07 15:15:43 +0200
 # catalog-license lppl1.3
-# catalog-version SVN 4634
+# catalog-version SVN 4742
 Name:		texlive-l3experimental
-Version:	SVN4634
-Release:	2
+Version:	SVN4742
+Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3experimental
@@ -25,16 +25,15 @@ implementations for aspects of the LaTeX3 kernel, dealing with
 higher-level ideas such as the Designer Interface. Some of them
 work as stand alone packages, providing new functionality, and
 can be used on top of LaTeX2e with no changes to the existing
-kernel. The present release includes: - xgalley, which controls
-boxes receiving text for typesetting. - l3dt: kernel support
-for data tables; - l3regex: kernel support for regular
-expression search and replace operations; - l3sort: kernel
-support for sorting sequences, token lists or comma-lists,
-according to user-specified comparison criteria; - l3str:
-kernel support for string manipulation; - l3tl-build: kernel
-support for token list building; - l3tl_analysis: kernel
-support for token list analysis; and - xcoffins, which allows
-the alignment of boxes using a series of 'handle' positions,
+kernel. The present release includes: xgalley, which controls
+boxes receiving text for typesetting. l3regex: kernel support
+for regular expression search and replace operations; l3sort:
+kernel support for sorting sequences, token lists or comma-
+lists, according to user-specified comparison criteria; l3str:
+kernel support for string manipulation; l3tl-build: kernel
+support for token list building; l3tl_analysis: kernel support
+for token list analysis; and xcoffins, which allows the
+alignment of boxes using a series of 'handle' positions,
 supplementing the simple TeX reference point. All the files of
 the bundle are also available in the Subversion (SVN)
 repository of the LaTeX3 Project. The bundle on CTAN is based
@@ -50,7 +49,6 @@ on a snapshot of the SVN repository on 2013-10-11.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/l3experimental/l3dt/l3dt.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3sort/l3sort.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3flag.sty
 %{_texmfdistdir}/tex/latex/l3experimental/l3str/l3regex-trace.sty
@@ -86,7 +84,6 @@ on a snapshot of the SVN repository on 2013-10-11.
 %{_texmfdistdir}/tex/latex/l3experimental/xgalley/l3galley.sty
 %{_texmfdistdir}/tex/latex/l3experimental/xgalley/xgalley.sty
 %doc %{_texmfdistdir}/doc/latex/l3experimental/README
-%doc %{_texmfdistdir}/doc/latex/l3experimental/l3dt/l3dt.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3sort/l3sort.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3flag.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/l3str/l3regex.pdf
@@ -99,8 +96,6 @@ on a snapshot of the SVN repository on 2013-10-11.
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xgalley/l3galley.pdf
 %doc %{_texmfdistdir}/doc/latex/l3experimental/xgalley/xgalley.pdf
 #- source
-%doc %{_texmfdistdir}/source/latex/l3experimental/l3dt/l3dt.dtx
-%doc %{_texmfdistdir}/source/latex/l3experimental/l3dt/l3dt.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3sort/l3sort.dtx
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3sort/l3sort.ins
 %doc %{_texmfdistdir}/source/latex/l3experimental/l3str/l3flag.dtx
