@@ -1,6 +1,6 @@
 Name:		texlive-l3experimental
 Version:	20180514
-Release:	2
+Release:	3
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3experimental
