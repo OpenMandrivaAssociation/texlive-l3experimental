@@ -1,5 +1,5 @@
 Name:		texlive-l3experimental
-Version:	69065
+Version:	69310
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
