@@ -3,7 +3,7 @@ Version:	71991
 Release:	1
 Summary:	Experimental LaTeX3 concepts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3experimental
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/l3experimental
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l3experimental.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l3experimental.doc.r%{version}.tar.xz
